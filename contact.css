@@ -1,0 +1,153 @@
+*{
+    margin: 0% 20% 0% 20%;
+    border: 0;
+    font-family: arial;
+}
+body{
+    margin: 0%;
+    border: 0;
+    background-color: rgb(119, 119, 119)
+}
+.contp{
+    margin: 1em 2em 1em 2em;
+    text-align: center;
+    color: white;  
+}
+form{
+    height: 34.7em;
+    padding-top: 1em;
+    font-size: 15px;
+    border-radius: 5px;
+    height: fit-content;
+}
+form, label, #name, #email, #tel, textarea{
+    background-color: rgb(255, 255, 255);
+}
+label{
+    text-align: center;
+    font-weight: normal;
+    margin-left: 1em;
+    margin-right: 0;
+}
+#input{
+    margin: 0.5em 0em 1em 1.5em;
+    height: 1.5em;
+    width: 90%;
+    padding-left: 1em;
+    margin-left: 1em;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.check{
+    display: flex;
+    margin: 0em 1em 0em 1em;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+.check1{
+    margin: 0; 
+    background-color: rgb(255, 255, 255);
+    width: 34%;
+}
+#checkbox{
+    border-style: none;
+    height: 1.5em;
+    width: 2em;
+    background-color: black;
+}
+textarea{
+    margin: 0em 1em 0em 1em;
+    background-color: rgb(231, 231, 231);
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+button{
+    margin: 1em 1em 1em 12.5em;
+    width: 6.7em;
+    height: 2.5em;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: black;
+    color: #ffffff; 
+    cursor: pointer;
+    background-color: black;
+}
+@media screen and (max-width: 490px){  
+    *{
+        margin: 0% 0% 0% 0%;
+        border: 0;
+        font-family: arial;
+    }
+    body{
+        margin: 0%;
+        border: 0;
+        background-color: rgb(119, 119, 119)
+    }
+    textarea{
+        width: 90%;
+    }
+    #input{
+        width: 90%;
+    }
+    button{
+    margin: 1em 1em 1em 10.5em;
+    }
+    .check{
+        margin: 0em 1em 0em 1em;
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        display: block;
+    }
+    .check1{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 491px) and (max-width: 599px){  
+    *{
+        margin: 0% 7% 0% 7%;
+        border: 0;
+        font-family: arial;
+    }
+    body{
+        margin: 0%;
+        border: 0;
+        background-color: rgb(119, 119, 119)
+    }
+    textarea{
+        width: 90%;
+    }
+    #input{
+        width: 90%;
+    }
+    .check{
+        margin: 0em 1em 0em 1em;
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px){ 
+    *{
+        margin: 0% 10% 0% 10%;
+        border: 0;
+        font-family: arial;
+    }
+    body{
+        margin: 0%;
+        border: 0;
+        background-color: rgb(119, 119, 119)
+    }
+    textarea{
+        width: 90%;
+    }
+    #input{
+        width: 90%;
+    }
+    .check{
+        margin: 0em 1em 0em 1em;
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+    }
+    
+}
